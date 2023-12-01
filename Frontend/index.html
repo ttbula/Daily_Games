@@ -2,30 +2,71 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Daily Games</title>
-    <div class="title">
-        <h1>Daily Games</h1>
-    <link rel="stylesheet" href="style.css">
-  </head>
+    <script src ="./app.js" defer></script>
+    <script src ="./User.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Daily Game</title>
+</head>
   <body>
-	  <script src="app.js"></script>
-    <div class="name">
-      <h3>Name</h3>
-      <button class="tim">Tim</button>
-      <button class="demetri">Demetri</button>
-      <button class="griffin">Griffin</button>
+	  <button id="tim" 
+      value= false
+      onClick="timData()"
+      onClick="timButtonPushed()" 
       
-    </div>
-    <div class="wordle">
-      <h3>Wordle Score</h3>
-    </div>
-    <div class="globle">
-      <h3>Globle Score</h3>
-    </div>
-    <div class="mini">
-      <h3>Mini Crossword Score</h3>
-    </div>
+      >
+      Tim
+    </button>
+    
+    <button id="demetri" 
+      value= false
+      onclick="demetriData()"
+      onClick="demetriButtonPushed()"
+      
+      >
+      Demetri 
+    </button>
+
+    <button id="griffin" 
+      value= false
+      onclick="griffinData()"
+      onClick= "griffinButtonPushed()"
+      
+      >
+      Griffin
+    </button>
+    
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

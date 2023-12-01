@@ -7,3 +7,29 @@ Im gonna need
     When you enter times into text fields that data needs to get pushed to that unique person
     All that data needs to get stored to an array somewhere in the backend
 */
+
+//const User = require('User.js');
+
+/*
+
+MAIN HANDLER
+
+*/
+
+function timData() {
+    document.getElementById('tim').addEventListener('click', () =>{
+        updateButton();
+    });
+}
+
+function demetriData() {
+    document.getElementById('demetri').addEventListener('click', () =>{
+        updateButton();
+    });
+}
+
+function griffinData() {
+    document.getElementById('griffin').addEventListener('click', () =>{
+        updateButton();
+    });
+}
